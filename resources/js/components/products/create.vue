@@ -37,7 +37,7 @@
         },
         methods: {
             createProduct() {
-                this.axios.post('http://127.0.0.1:8000/api/products', this.product)
+                this.axios.post('http://146.56.115.215/api/products', this.product)
                     .then(response => {
                         this.$router.push({ name: 'ProductIndex' })
                     })
